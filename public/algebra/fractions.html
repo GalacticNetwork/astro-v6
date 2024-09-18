@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0Z5YJ5D06G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0Z5YJ5D06G');
+</script>
+  <script src="/js/settings/tabclose.js" defer></script>
+<script src="/js/settings/clickoff.js" defer></script>
+<script src="/js/settings/autoab.js" defer></script>
+  <script src="/js/settings/hotkey.js" defer></script>
+  <script src="/js/settings/cloak.js" defer></script>
+  <script src="/js/settings/cloak2.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Astro | Dashboard</title>
+  <link rel="icon" id="favicon" href="images/astro.png" />
+	<link rel="shortcut icon" id="favicon" href="images/astro.png" />
+  <script type='text/javascript' src='//banddisordergraceless.com/ce/75/76/ce7576defa8dc3d82887bd1c1f84ac65.js'></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <script src="https://kit.fontawesome.com/52676eb1e5.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500&family=Quicksand:wght@300..700&display=swap');
+    body {
+      background-color: #2B1C3D;
+      color: #fff;
+      font-family: 'Be Vietnam Pro', sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .back-button {
+      position: fixed;
+      top: 1rem;
+      left: 1rem;
+      background-color: yellow;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      font-size: 1.2rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+
+    .back-button:hover {
+      background-color: yellow;
+    }
+
+  #game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 570px;
+}
+
+#game-container iframe {
+  width: 80%;
+  height: 90%;
+  border: none;
+  border-radius:10px;
+  margin-bottom: 0px;
+}
+
+#server-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#server-buttons a {
+  display: block;
+  position: relative;
+  top: 0;
+  margin: 0 10px;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #EFEFEF;
+  background-color: #DD4A68;
+  transition: background-color 0.3s ease;
+}
+
+#server-buttons a:hover {
+  background-color: #FF6B88;
+}
+
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1f1f1f;
+    z-index: 9999;
+    user-select: none;
+}
+
+#loader.hide {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#loader h1 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 7vw;
+    font-weight: 700;
+    text-align: center;
+}
+
+#loader h1 span {
+    color: #ff0006;
+}
+
+#loader p {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 1.2vw;
+    font-weight: 500;
+    text-align: center;
+}
+
+#loader .loader {
+    position: absolute;
+    top:63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 6vw;
+    height:6vw;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    border-top-color: #941417;
+    animation: loader 1s linear infinite;
+}
+
+@keyframes loader {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+.menu {
+  width:80%;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  border-radius:15px;
+  background-color:#5404a91b;
+  bottom:50%;
+}
+  </style>
+</head>
+
+<body>
+  <div id="game-container">
+    <iframe class="fc" title="" id="gameFramey" src=""></iframe>
+  </div>
+  <div align="center">
+<div class="menu">
+  <a href="/algebra/" title="backbutton" style="text-decoration:none;color:white;font-size:20px;margin:5px;"><i class="fa-solid fa-chevron-left"></i> Leave</a>
+  <a href="#" onclick="reloadFrame()" title="fc" style="text-decoration:none;color:white;font-size:20px;margin:9px;"><i class="fa-solid fa-rotate-right"></i> Reload</a>
+  <a href="#" onclick="toggleFC()" title="fc" style="text-decoration:none;color:white;font-size:20px;"><i class="fa-solid fa-expand"></i> Fullscreen</a>
+</div>
+</div>
+
+<script>
+          function reloadFrame() {
+            var web = document.getElementById("gameFramey");
+            web.contentWindow.location.reload();
+            //web.src += ""
+          }
+  function toggleFC() {
+    let elem = document.querySelector('#gameFramey');
+
+    if (!document.fullscreenElement) {
+      elem.requestFullscreen().catch((err) => {
+        alert(`Error attempting to enable fullscreen mode: ${err.message} (${err.name})`);
+      });
+    } else {
+      document.exitFullscreen();
+    }
+  }
+</script>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const src = urlParams.get('geometry');
+    document.getElementById('gameFramey').src = '/algebra/src/' + src
+  </script>
+</body>
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({ pageLanguage: "en", layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL }, "google_translate_element");
+  }
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</html>

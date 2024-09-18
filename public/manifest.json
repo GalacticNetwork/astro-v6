@@ -1,0 +1,21 @@
+{ 
+
+  "name": "Astro", 
+
+  "short_name": "AS", 
+
+  "start_url": "/", 
+
+  "display": "standalone", 
+
+  "icons": [{ 
+
+    "src": "images/astro.png", 
+
+    "sizes": "512x512", 
+
+    "type": "image/png" 
+
+  }] 
+
+}

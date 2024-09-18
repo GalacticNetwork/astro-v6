@@ -1,0 +1,162 @@
+[
+    {
+    "img": "/circumfrence/img/discord.webp",
+    "title": "Discord",
+    "clickFunction": "goto('https://discord.com');"
+},
+{
+    "img": "/circumfrence/img/google.avif",
+    "title": "Google",
+    "clickFunction": "goto('https://google.com');"
+},
+{
+    "img": "/circumfrence/img/twitch.webp",
+    "title": "Twitch",
+    "clickFunction": "goto('https://twitch.tv');"
+},
+{
+    "img": "/circumfrence/img/hianime.webp",
+    "title": "HiAnime",
+    "clickFunction": "goto('https://hianime.to');"
+},
+{
+    "img": "/circumfrence/img/nunflix.png",
+    "title": "Nunflix",
+    "clickFunction": "goto('https://nunflix.com');"
+},
+{
+    "img": "/circumfrence/img/amazon-luna.jpg",
+    "title": "Amazon Luna",
+    "clickFunction": "goto('https://luna.amazon.com');"
+},
+{
+    "img": "/circumfrence/img/chess.png",
+    "title": "Chess.com",
+    "clickFunction": "goto('https://chess.com');"
+},
+{
+    "img": "/circumfrence/img/android.webp",
+    "title": "Android",
+    "clickFunction": "goto('https://nowgg.nl/apps/uncube/7074/now.html');"
+},
+{
+    "img": "/circumfrence/img/aptoide.png",
+    "title": "Aptoide",
+    "clickFunction": "goto('https://cybria-gg-ebon.vercel.app/apps/aptoide/5874/aptoide-2.html');"
+},
+{
+    "img": "/circumfrence/img/cmg.png",
+    "title": "Cool Math Games",
+    "clickFunction": "goto('https://coolmathgames.com');"
+},
+{
+    "img": "/circumfrence/img/crazygames.jpg",
+    "title": "CrazyGames",
+    "clickFunction": "goto('https://crazygames.com');"
+},
+{
+    "img": "/circumfrence/img/ddg.png",
+    "title": "DuckDuckGo",
+    "clickFunction": "goto('https://duckduckgo.com');"
+},
+{
+    "img": "/circumfrence/img/bing.webp",
+    "title": "Bing",
+    "clickFunction": "goto('https://bing.com');"
+},
+{
+    "img": "/circumfrence/img/newgrounds.webp",
+    "title": "Newgrounds",
+    "clickFunction": "goto('https://newgrounds.com');"
+},
+{
+    "img": "/circumfrence/img/gfn.jpg",
+    "title": "Geforce Now",
+    "clickFunction": "goto('https://play.geforcenow.com');"
+},
+{
+    "img": "/circumfrence/img/nowgg.jpg",
+    "title": "Now.gg",
+    "clickFunction": "goto('https://now.gg');"
+},
+{
+    "img": "/circumfrence/img/nowggme.png",
+    "title": "Now.gg Shuttle Byp*ss",
+    "clickFunction": "goto('https://shuttle.lol');"
+},
+{
+    "img": "/circumfrence/img/nowggnl.png",
+    "title": "Now.gg Vyper Group Byp*ss",
+    "clickFunction": "goto('https://nowgg.nl');"
+},
+{
+    "img": "/circumfrence/img/ig.webp",
+    "title": "InstaGram",
+    "clickFunction": "goto('https://instagram.com');"
+},
+{
+    "img": "/circumfrence/img/poki.jpeg",
+    "title": "Poki",
+    "clickFunction": "goto('https://poki.com');"
+},
+{
+    "img": "/circumfrence/img/sc.webp",
+    "title": "Snapchat",
+    "clickFunction": "goto('https://snapchat.com');"
+},
+{
+    "img": "/circumfrence/img/pintrest.png",
+    "title": "Pinterest",
+    "clickFunction": "goto('https://pintrest.com');"
+},
+{
+    "img": "/circumfrence/img/ytmusic.png",
+    "title": "Youtube Music",
+    "clickFunction": "goto('https://music.youtube.com');"
+},
+{
+    "img": "/circumfrence/img/iv.png",
+    "title": "Invidious (A YouTube alternative)",
+    "clickFunction": "goto('https://iv.nboeck.de');"
+},
+{
+    "img": "/circumfrence/img/x.webp",
+    "title": "Twitter/X",
+    "clickFunction": "goto('https://twitter.com');"
+},
+{
+    "img": "/circumfrence/img/vercel.jpg",
+    "title": "Vercel",
+    "clickFunction": "goto('https://vercel.com');"
+},
+{
+    "img": "/circumfrence/img/vscode.png",
+    "title": "VS Code",
+    "clickFunction": "goto('https://vscode.dev');"
+},
+{
+    "img": "/circumfrence/img/wattpad.webp",
+    "title": "WattPad",
+    "clickFunction": "goto('https://www.wattpad.com');"
+},
+{
+    "img": "/circumfrence/img/w3.jpg",
+    "title": "W3 Schools",
+    "clickFunction": "goto('https://www.w3schools.com');"
+},
+{
+    "img": "/circumfrence/img/y8.jpeg",
+    "title": "Y8 Games",
+    "clickFunction": "goto('https://y8.com');"
+},
+{
+    "img": "/circumfrence/img/whatsapp.webp",
+    "title": "Whatsapp",
+    "clickFunction": "goto('https://web.whatsapp.com');"
+},
+{
+    "img": "/circumfrence/img/espn.jpg",
+    "title": "ESPN",
+    "clickFunction": "goto('https://espn.com');"
+}
+]

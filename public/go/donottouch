@@ -1,0 +1,13 @@
+  <script>
+    window.onload = function() {
+                  let url = sessionStorage.getItem("url");
+                  url = "/service/" + url;
+                  console.log(url);
+                  document.querySelector("#iframeId").src = url;
+                  let iframe = document.querySelector("#iframeId");
+                  iframe.src = url;
+              };
+  </script>
+sessionStorage.setItem("ur", __uv$config.prefix + __uv$config.encodeUrl(url))
+        location.href = "/go.html"
+  location.href = __uv$config.prefix + __uv$config.encodeUrl(url);

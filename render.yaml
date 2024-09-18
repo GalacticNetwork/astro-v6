@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: edu-website-run
+    runtime: node
+    buildCommand: "npm i"
+    startCommand: "npm start"
+    plan: free

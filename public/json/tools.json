@@ -1,0 +1,82 @@
+[
+    {
+        "img": "/learning/img/blooket.webp",
+        "title": "Blooket Cheats",
+        "clickFunction": "goto('https://github.com/TommyBoi-TB/Blooket-Cheats');"
+    },
+    {
+        "img": "/learning/img/chatgpt.jpeg",
+        "title": "ChatGPT",
+        "clickFunction": "goto('https://chatgptdemo.info/chat/');"
+    },
+    {
+        "img": "/learning/img/soundboard.jpg",
+        "title": "SoundBoard",
+        "clickFunction": "goto('https://spectacular-sunset-screwdriver.glitch.me/');"
+    },
+    {
+        "img": "/learning/img/calculator.png",
+        "title": "Calculator",
+        "clickFunction": "goto('https://maddening-honeysuckle-theory.glitch.me/');"
+    },
+    {
+        "img": "/learning/img/copyleaks.jpg",
+        "title": "Copy Leaks",
+        "clickFunction": "goto('https://copyleaks.com/');"
+    },
+    {
+        "img": "/learning/img/kome.png",
+        "title": "Kome.AI YouTube transcript generator",
+        "clickFunction": "goto('https://kome.ai/tools/youtube-transcript-generator');"
+    },
+    {
+        "img": "/learning/img/edpuzzle.jpg",
+        "title": "Edpuzzle Cheats",
+        "clickFunction": "goto('https://github.com/ading2210/edpuzzle-answers');"
+    },
+    {
+        "img": "/learning/img/deepai.png",
+        "title": "DeepAI",
+        "clickFunction": "goto('https://deepai.org');"
+    },
+    {
+        "img": "/learning/img/notegpt.png",
+        "title": "NoteGPT YouTube Transcript Generator",
+        "clickFunction": "goto('https://notegpt.io/youtube-transcript-generator');"
+    },
+    {
+        "img": "/learning/img/talkai.webp",
+        "title": "TalkAI",
+        "clickFunction": "goto('https://talkai.info');"
+    },
+    {
+        "img": "/learning/img/zerogpt.png",
+        "title": "ZeroGPT",
+        "clickFunction": "goto('https://zerogpt.com');"
+    },
+    {
+        "img": "/learning/img/writer.png",
+        "title": "Writer",
+        "clickFunction": "goto('https://writer.com');"
+    },
+    {
+        "img": "/learning/img/grammarly.png",
+        "title": "Grammarly Plagarism Detector",
+        "clickFunction": "goto('https://www.grammarly.com/plagiarism-checker');"
+    },
+    {
+        "img": "/learning/img/plagarism.png",
+        "title": "Plagarism Detector",
+        "clickFunction": "goto('https://plagiarismdetector.net/');"
+    },
+    {
+        "img": "/learning/img/bookmark.jpg",
+        "title": "Bookmarklets",
+        "clickFunction": "goto('https://github.com/dragon731012/-WORKING-bookmarklets-and-games');"
+    },
+    {
+        "img": "/learning/img/gemini.png",
+        "title": "Google Gemini",
+        "clickFunction": "goto('https://gemini.google.com');"
+    }
+]

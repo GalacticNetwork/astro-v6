@@ -1,0 +1,162 @@
+[
+    {
+        "img": "/algebra/img/old1v1.avif",
+        "title": "Old 1v1.lol",
+        "url": "/algebra/fractions.html?geometry=1v1-lol/old"
+    },
+    {
+        "img": "/algebra/img/1v1-lol.jpeg",
+        "title": "New 1v1.lol",
+        "url": "/algebra/fractions.html?geometry=1v1-lol/new"
+    },
+    {
+        "img": "/algebra/img/slope.jpeg",
+        "title": "Slope",
+        "url": "/algebra/fractions.html?geometry=slope"
+    },
+    {
+        "img": "/algebra/img/mgm.avif",
+        "title": "Mini Golf Master",
+        "url": "/algebra/fractions.html?geometry=mini-golf-master"
+    },
+    {
+        "img": "/algebra/img/basketball-stars.jpg",
+        "title": "Basketball Stars",
+        "url": "/algebra/fractions.html?geometry=basketball-stars"
+    },
+    {
+        "img": "/algebra/img/brawlstars.png",
+        "title": "Brawl Stars",
+        "url": "/algebra/fractions.html?geometry=brawl-stars"
+    },
+    {
+        "img": "/algebra/img/2048.jpg",
+        "title": "2048",
+        "url": "/algebra/fractions.html?geometry=2048"
+    },
+    {
+        "img": "/algebra/img/achivement-unlocked.jpg",
+        "title": "Achivement Unlocked",
+        "url": "/algebra/fractions.html?geometry=achivement-unlocked"
+    },
+    {
+        "img": "/algebra/img/achivement-unlocked-2.jpg",
+        "title": "Achivement Unlocked 2",
+        "url": "/algebra/fractions.html?geometry=achivement-unlocked/2"
+    },
+    {
+        "img": "/algebra/img/achivement-unlocked-3.jpg",
+        "title": "Achivement Unlocked 3",
+        "url": "/algebra/fractions.html?geometry=achivement-unlocked/3"
+    },
+        {
+        "img": "/algebra/img/10-mins.png",
+        "title": "10 Minutes Till Dawn",
+        "url": "/algebra/fractions.html?geometry=10-minutes-till-dawn"
+    },
+    {
+        "img": "/algebra/img/adofi.jpg",
+        "title": "A Dance Of Fire And Ice",
+        "url": "/algebra/fractions.html?geometry=adofai"
+    },
+    {
+        "img": "/algebra/img/call-of-ops.jpeg",
+        "title": "Call Of Ops 2",
+        "url": "/algebra/fractions.html?geometry=black-ops-2"
+    },
+    {
+        "img": "/algebra/img/roblox.png",
+        "title": "Roblox",
+        "clickFunction": "goto('https://mathsspot.com/apps/roblox-corporation/5349/roblox.html'); alert('Reload the proxy till it works!');"
+    },
+    {
+        "img": "/algebra/img/fn.jpeg",
+        "title": "Fortnite",
+        "clickFunction": "goto('https://play.geforcenow.com/games?game-id=46bfab06-d864-465d-9e56-2d9e45cdee0a&lang=en_US&asset-id=01_94ff5082-1d9e-40a3-9829-9a1abcbea7cc');"
+    },
+    {
+        "img": "/algebra/img/tf2.jpg",
+        "title": "Team Fortress 2",
+        "clickFunction": "goto('https://play.geforcenow.com/games?game-id=40512534-ad27-4a12-afa7-6fc412288072&lang=en_US&asset-id=01_547b2064-13ad-4ba5-b928-d2770accddf1');"
+    },
+    {
+        "img": "/algebra/img/adventure-capitalist.jpg",
+        "title": "Adventure Capitalist",
+        "clickFunction": "goto('https://than1089.github.io/adventure-capitalist/');"
+    },
+    {
+        "img": "/algebra/img/ewww.avif",
+        "title": "You VS 100 Skibidi Toilets (🤮)",
+        "clickFunction": "goto('https://unblocked-games911.github.io/you-vs-100-skibidi-toilets/');"
+    },
+    {
+        "img": "/algebra/img/blumgi-ball.webp",
+        "title": "Blumgi Ball",
+        "url": "/algebra/fractions.html?geometry=blumgimagicball"
+    },
+    {
+        "img": "/algebra/img/subwaysurfers.png",
+        "title": "Subway Surfers",
+        "url": "/algebra/fractions.html?geometry=subway-surfers"
+    },
+    {
+        "img": "/algebra/img/fn-mobile.png",
+        "title": "Fortnite Mobile",
+        "clickFunction": "goto('https://renderisgay.onrender.com/apps/epic-games/7308/fortnite.html');"
+    },
+    {
+        "img": "/algebra/img/mp.jpg",
+        "title": "Melon Playground",
+        "clickFunction": "goto('https://mathsspot.com/apps/playducky/7199/melon-sandbox.html');"
+    },
+    {
+        "img": "/algebra/img/133.webp",
+        "title": "Minecraft 1.3.3",
+        "url": "/algebra/fractions.html?geometry=eaglercraft/133"
+    },
+    {
+        "img": "/algebra/img/152.webp",
+        "title": "Minecraft 1.5.2",
+        "url": "/algebra/fractions.html?geometry=eaglercraft/152"
+    },
+    {
+        "img": "/algebra/img/188.webp",
+        "title": "Minecraft 1.8.8",
+        "url": "/algebra/fractions.html?geometry=eaglercraft/188"
+    },
+    {
+        "img": "/algebra/img/189.jpg",
+        "title": "Minecraft 1.8.9",
+        "url": "/algebra/fractions.html?geometry=eaglercraft/189"
+    },
+    {
+        "img": "/algebra/img/fifa.jpg",
+        "title": "Fifa Mobile",
+        "clickFunction": "goto('https://mathsspot.com/apps/electronic-arts/1353/ea-sports-fc-mobile-24-soccer.html');"
+    },
+    {
+        "img": "/algebra/img/rlss.jpg",
+        "title": "Rocket League: SideSwipe",
+        "clickFunction": "goto('https://mathsspot.com/apps/psyonix-studios/4656/rocket-league.html');"
+    },
+    {
+        "img": "/algebra/img/retro-bowl.jpg",
+        "title": "Retro Bowl",
+        "url": "/algebra/fractions.html?geometry=retro-bowl"
+    },
+    {
+        "img": "/algebra/img/retro-bowl-college.jpg",
+        "title": "Retro Bowl College",
+        "clickFunction": "goto('https://mathsspot.com/apps/new-star-games-ltd/5635/retro-bowl-college.html');"
+    },
+    {
+        "img": "/algebra/img/madden-nfl-24-mobile-football.jpg",
+        "title": "Madden NFL 2024",
+        "clickFunction": "goto('https://mathsspot.com/apps/electronic-arts/1731/madden-nfl-24-mobile-football.html');"
+    },
+    {
+        "img": "/algebra/img/nba-live-mobile-basketball.jpg",
+        "title": "NBA Live",
+        "clickFunction": "goto('https://mathsspot.com/apps/electronic-arts/2156/nba-live-mobile-basketball.html');"
+    }
+]

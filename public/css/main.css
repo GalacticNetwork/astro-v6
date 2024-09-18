@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500&family=Quicksand:wght@300..700&display=swap');
+body {
+    background-image: url("/images/bg.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+	color: white;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.navbar {
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  top: 4%;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #9500ff3a;
+  position:fixed;
+  width:100%;
+  border-radius:10px;
+}
+
+.brand {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin:15px;
+  transition:0.5s;
+}
+
+.nav-links li:hover {
+  transform:scale(1.1);
+  }
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  transition: 1s;
+}
+
+.nav-links a:hover {
+transform:scale(1.1);
+}
+
+input {
+  width: 400px;
+  height:35px;
+  box-shadow: 0 0 20px black;
+  outline:none;
+  border-radius:5px;
+  background-color: transparent;
+  border:none;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+input::placeholder {
+  color:white;
+  text-align: center;
+}
+
+.setinput {
+  width: 200px;
+  height:35px;
+  box-shadow: 0 0 20px black;
+  outline:none;
+  border-radius:5px;
+  background-color: transparent;
+  border:none;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.setinput::placeholder {
+  color:white;
+  text-align: center;
+}
+
+.searchsection {
+  background-color: #d69cbc;
+  border-radius: 30px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px #301934;
+	width: 200px;
+  height:120px;
+  justify-content: center;
+  transition:0.7s;
+}
+
+.searchsection:hover {
+  transform:translateY(1.1rem);
+}
+
+.logo {
+  width:50px;
+  transition:2s;
+}
+.logo:hover {
+  transform:rotate(-360deg);
+}
+
+.game-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.app-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.tool-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.image-container {
+  position: relative;
+  width: 300px;
+  height: 175px;
+  cursor: pointer;
+  border-radius:12px;
+  transition:0.6s;
+  margin:10px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius:5px;
+}
+
+.image-container:hover {
+  transform:translateY(-0.5rem);
+}
+
+.overlay {
+  border-radius:5px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+
+button {
+	width: fit-content;
+  height: 35px;
+	border-radius: 5px;
+	color: white;
+  border-style: none;
+	margin-bottom: 5px;
+	background: purple;
+	cursor: pointer;
+  transition: 0.5s;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+button:hover {
+    background-color: violet;
+    cursor: pointer;
+    color: white;
+      box-shadow: 0px 15px 20px rgba(66, 135, 245, 0.1);
+}
+
+.alignment {
+	align-items:center;
+	justify-content:center;
+}
+
+#subtitle {
+	font-size:10px;
+}
+
+.spin {
+	cursor:pointer;
+	transition:0.5s;
+}
+
+.spin:hover {
+	transform:rotate(-360deg);
+}
+
+.containerz {
+  float:left;
+  background-color: #222;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px black;
+  width: 19.8%;
+  height:300px;
+  margin:15px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  transition: ease 0.5s;
+}
+
+.containerz:hover {
+transform: translateY(-0.5rem);
+}
+
+.select-box {
+  background-color: #490a81;
+  position: relative;
+  width: 200px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.selected-option {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #490a81;
+  border: none;
+  color: black;
+}
+
+.options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #5b2294;
+  border-radius: 10px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+
+.options li {
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+.options li:hover {
+  background-color: #490a81;
+  border-radius:10px;
+}
+
+option {
+    font-family: 'Inter', sans-serif;
+     border-radius: 10px;
+    background: black;
+    color:white;
+}
+select {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-color: var(--bgcolor);
+  width: 150px;
+  height: 30px;
+  border-radius: 8px;
+  font-size: 18px;
+  transition-timing-function: ease-in-out;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+input:checked + .slider {
+  background-color: #d69cbc;
+}
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+
+#search-bar {
+  width: 250px;
+  padding: 10px;
+  padding-right: 40px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height:20px;
+  text-align: center;
+}
+
+#search-bar:placeholder {
+  text-align: center;
+  color:#fff;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 16px;
+  color: #aaa;
+  margin-bottom: 15px;
+}
+
+.ad-container {
+  border-radius:5px;
+  width:230px;
+  padding: 20px;
+  background-color: #2222226e;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+  transition:1s;
+  bottom:15px;
+  right:15px;
+  position:fixed;
+}
+
+.ad-container:hover {
+  transform:translateY(-1.1rem);
+}
+
+.ad-container.fade-out {
+  opacity: 0;
+}
+.billiger {
+  color: red;
+}
+#time-text {
+  margin:14.9px;
+}

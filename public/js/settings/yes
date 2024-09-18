@@ -1,0 +1,70 @@
+$(document).ready(function() {
+    // Toggle options when select-box is clicked
+    $('.select-box').on('click', function(event) {
+        event.stopPropagation();
+        $(this).find('.options').toggle();
+    });
+
+    // Set selected option text and hide options
+    $('#presetOptions').on('click', 'li', function(event) {
+        event.stopPropagation();
+        var selectedOption = $(this).text();
+        $('#presets').text(selectedOption);
+        $('.options').hide();
+    });
+
+    // Hide options if clicked outside
+    $(document).on('click', function(event) {
+        if (!$(event.target).closest('.select-box').length) {
+            $('.options').hide();
+        }
+    });
+
+    // Custom and preset button event handlers
+    const customApply = document.getElementById("customApply");
+    const reset = document.getElementById("reset");
+    const titleInput = document.getElementById("title");
+    const faviconInput = document.getElementById("favicon");
+
+    const google = document.getElementById("google");
+    const googleClassroom = document.getElementById("googleClassroom");
+    const bing = document.getElementById("bing");
+    const nearpod = document.getElementById("nearpod");
+    const powerschool = document.getElementById("powerschool");
+
+    function applySettings(title, favicon) {
+        localStorage.setItem("Title", title || "Astro");
+        localStorage.setItem("Favicon", favicon || "/images/astro.png");
+        location.reload();
+    }
+
+    customApply.addEventListener("click", () => {
+        const title = titleInput.value.trim();
+        const favicon = faviconInput.value.trim();
+        applySettings(title, favicon);
+    });
+
+    google.addEventListener("click", () => {
+        applySettings("Google", "https://raw.githubusercontent.com/GalacticNetwork/jordansmathwork-v5/main/assets/images/cloaks/gsearch.ico");
+    });
+
+    googleClassroom.addEventListener("click", () => {
+        applySettings("Home", "https://ssl.gstatic.com/classroom/favicon.png");
+    });
+
+    bing.addEventListener("click", () => {
+        applySettings("Bing", "https://bing.com/favicon.ico");
+    });
+
+    nearpod.addEventListener("click", () => {
+        applySettings("Nearpod", "https://nearpod.com/favicon.ico");
+    });
+
+    powerschool.addEventListener("click", () => {
+        applySettings("PowerSchool Sign In", "https://powerschool.com/favicon.ico");
+    });
+
+    reset.addEventListener("click", () => {
+        applySettings();
+    });
+});
